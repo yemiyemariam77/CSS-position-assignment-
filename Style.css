@@ -1,0 +1,53 @@
+/* Page setup */
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Trebuchet MS", sans-serif;
+  position: relative;
+  background: #eef2f3; /* soft gradient background look */
+}
+
+/* General box style */
+div {
+  position: absolute;
+  padding: 15px 22px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px;  /* bigger margin */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2); /* subtle shadow */
+}
+
+/* Each position with new color */
+.top-left {
+  top: 0;
+  left: 0;
+  background: #008080;   /* Teal green */
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  background: #d1495b;   /* Reddish pink */
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  background: #0077b6;   /* Deep blue */
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  background: #ffb703;   /* Golden yellow */
+}
+
+/* Center box */
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #6a994e;   /* Leaf green */
+  padding: 20px 30px;    /* Make center bigger */
+}
